@@ -9,7 +9,7 @@ local MyConsole = LibStub("AceConsole-3.0")
     local stMain, stItems, igtMainFrame, igtDungeonFrame, igtSettingsFrame, igtCustomFrame, igtSaveFrame, igtGoldFrame, igtPriceSourceFrame, cbtnMinimap
     local data = {}
     local GameTooltip = GameTooltip
-    local tt_start, tt_pause, tt_end = 0
+    local tt_start, tt_pause, tt_end, t_start = 0, 0, 0, 0
     local currentZone = GetZoneText()
     local currentSubZone = GetSubZoneText()
     local timer_Status = 0
@@ -431,7 +431,7 @@ local function instance_timer()
         local overall, equipped = GetAverageItemLevel()
         local name_lastDungen, type, difficultyIndex, difficultyName, maxPlayers,dynamicDifficulty, isDynamic, instanceMapId, lfgID = GetInstanceInfo()
         local difficulty_lastDungen = difficultyName
-        local t_start = GetTime()
+        t_start = GetTime()
 
         if inInstance and (instanceType == "party" or instanceType == "raid") then
             if timer_Status == 0 then
@@ -457,6 +457,7 @@ local function instance_timer()
                     local px, py = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player"):GetXY()
                     local map = C_Map.GetBestMapForUnit("player")
                     local Coordinates = string.format("%.2f",px*100) .. " - ".. string.format("%.2f",py*100)
+                    -- print(t_end)
                     tinsert(table_Dungeon_Name,name_lastDungen)
                     tinsert(table_Dungeon_Difficulty,difficultyName)
                     tinsert(table_Time,math.floor(t_end))
