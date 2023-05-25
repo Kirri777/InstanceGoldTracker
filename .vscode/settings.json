@@ -1,0 +1,31 @@
+{
+    "Lua.diagnostics.globals": [
+        "GameTooltip",
+        "SlashCmdList",
+        "ColorPickerFrame",
+        "LOOT_ITEM_SELF",
+        "UISpecialFrames",
+        "ChatFontNormal",
+        "LOOT_ITEM_SELF_MULTIPLE",
+        "OpacitySliderFrame",
+        "DressUpItemLink",
+        "TargetFrame",
+        "UiMapPoint",
+        "hash_SlashCmdList",
+        "DEFAULT_CHAT_FRAME",
+        "CLOSE",
+        "GameFontHighlightSmall",
+        "GameFontDisableSmall",
+        "GameFontNormalSmall",
+        "FONT_COLOR_CODE_CLOSE",
+        "GameFontNormal",
+        "SetDesaturation",
+        "OKAY",
+        "NOT_BOUND",
+        "ACCEPT",
+        "GetCursorPosition",
+        "FauxScrollFrame_Update",
+        "FauxScrollFrame_OnVerticalScroll",
+        "FauxScrollFrame_GetOffset"
+    ]
+}

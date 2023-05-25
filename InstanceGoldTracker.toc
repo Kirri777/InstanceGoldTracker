@@ -1,0 +1,39 @@
+## Interface: 100002
+## Version: 2.0.4
+## Title: Instance Gold Tracker
+## Notes: Records and stores data of gold value earned in dungeons and raids.
+## Author: Azuma(Nozdormu)
+
+## SavedVariables: table_Dungeon_Name = {}
+## SavedVariables: table_Dungeon_Difficulty = {}
+## SavedVariables: table_Time = {}
+## SavedVariables: table_Looted_Item_Value_Total = {}
+## SavedVariables: table_Looted_Money_Total = {}
+## SavedVariables: table_Money_Total = {}
+## SavedVariables: table_Character_Name = {}
+## SavedVariables: table_Date = {}
+## SavedVariables: table_Character_Class = {}
+## SavedVariables: StopwatchActive = {}
+## SavedVariables: DB
+## SavedVariables: goldframex
+## SavedVariables: goldframey
+## SavedVariables: goldframealign1
+## SavedVariables: goldframealign2
+## SavedVariables: customframex
+## SavedVariables: customframey
+## SavedVariables: customframealign1
+## SavedVariables: customframealign2
+## SavedVariables: MinGold
+## SavedVariables: MinTime
+## SavedVariables: table_LootedItems = {}
+## SavedVariables: table_LootedItemsQuantity = {}
+## SavedVariables: LiveGold
+## SavedVariables: CustomPrice
+## SavedVariables: CustomPriceStorage = {}
+## SavedVariables: table_kill_count = {}
+## SavedVariables: table_coordinates  = {}
+## SavedVariables: table_map  = {}
+## SavedVariables: Rmain, Gmain, Bmain, Amain
+
+embeds.xml
+InstanceGoldTracker.lua
