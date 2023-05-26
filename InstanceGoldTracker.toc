@@ -1,4 +1,4 @@
-## Interface: 100002
+## Interface: 101000
 ## Version: 2.0.4
 ## Title: Instance Gold Tracker
 ## Notes: Records and stores data of gold value earned in dungeons and raids.
